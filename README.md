@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby related to how method assignment works.  The `bug.rb` file shows how assigning a value directly to a method name (intended as a reader method) does not modify the instance variable's value. The `bugSolution.rb` provides the correct implementation.
